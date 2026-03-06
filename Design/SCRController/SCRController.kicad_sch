@@ -2395,7 +2395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-18-3_EBC"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -2468,7 +2468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 104.902 100.33 90)
 			(effects
 				(font
@@ -2537,7 +2537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 79.502 125.73 90)
 			(effects
 				(font
@@ -2674,7 +2674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 103.632 29.21 90)
 			(effects
 				(font
@@ -2742,7 +2742,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 66.04 70.358 90)
 			(effects
 				(font
@@ -2810,7 +2810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 67.31 141.478 90)
 			(effects
 				(font
@@ -2880,7 +2880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 103.632 49.53 90)
 			(effects
 				(font
@@ -2948,7 +2948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
 			(at 135.89 132.08 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_THT_AKL:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
 			(at 91.1352 127 0)
 			(effects
 				(font
@@ -3220,7 +3220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed"
 			(at 41.91 22.86 0)
 			(effects
 				(font
@@ -3324,7 +3324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -3392,7 +3392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed"
 			(at 43.18 137.16 0)
 			(effects
 				(font
@@ -3420,16 +3420,16 @@
 			)
 		)
 		(pin "11"
-			(uuid "efc58628-48d1-4f97-b539-2b54bf13d8c2")
+			(uuid "efc58628-48d1-4f97-b539-2b54bf13d8c3")
 		)
 		(pin "6"
-			(uuid "236c41ed-b273-48c1-a0b7-65781032bbb9")
+			(uuid "236c41ed-b273-48c1-a0b7-65781032bbba")
 		)
 		(pin "5"
-			(uuid "5d6a5258-6ad6-4f32-9fb9-240c8eb70ea6")
+			(uuid "5d6a5258-6ad6-4f32-9fb9-240c8eb70ea7")
 		)
 		(pin "10"
-			(uuid "5a8fd970-7626-4b3a-819c-8de80547ff2f")
+			(uuid "5a8fd970-7626-4b3a-819c-8de80547ff30")
 		)
 		(pin "1"
 			(uuid "2fd03c4c-1559-4c91-8e8a-72ec5225341d")
@@ -3438,28 +3438,28 @@
 			(uuid "fdef0baa-e6ab-4a03-9ce1-d343e42ed605")
 		)
 		(pin "7"
-			(uuid "6e65769f-a8a2-43af-a7a2-618420b996d0")
+			(uuid "6e65769f-a8a2-43af-a7a2-618420b996d1")
 		)
 		(pin "9"
-			(uuid "abc869bd-dd59-46b1-92ad-8fe5985e796e")
+			(uuid "abc869bd-dd59-46b1-92ad-8fe5985e796f")
 		)
 		(pin "12"
-			(uuid "230a5a4b-8005-4fff-aa32-c3f941ab2239")
+			(uuid "230a5a4b-8005-4fff-aa32-c3f941ab223a")
 		)
 		(pin "8"
-			(uuid "46b6a043-a14e-40fe-a07f-69fad102bdc1")
+			(uuid "46b6a043-a14e-40fe-a07f-69fad102bdc2")
 		)
 		(pin "13"
-			(uuid "b042d701-0178-4677-80fd-768463cebff0")
+			(uuid "b042d701-0178-4677-80fd-768463cebff1")
 		)
 		(pin "14"
-			(uuid "5e362ad0-6a08-4e51-9239-68bf1710bb35")
+			(uuid "5e362ad0-6a08-4e51-9239-68bf1710bb36")
 		)
 		(pin "2"
 			(uuid "792a34fa-57d8-477a-a844-3c26469aad6f")
 		)
 		(pin "4"
-			(uuid "91a65798-8c96-4061-9c8c-ca5e6ac54aee")
+			(uuid "91a65798-8c96-4061-9c8c-ca5e6ac54aef")
 		)
 		(instances
 			(project "SCRController"
@@ -3498,7 +3498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-18-3_EBC"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
 			(at 83.82 137.16 0)
 			(effects
 				(font
@@ -3569,7 +3569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed"
 			(at 123.19 62.23 0)
 			(effects
 				(font
@@ -3597,16 +3597,16 @@
 			)
 		)
 		(pin "11"
-			(uuid "efc58628-48d1-4f97-b539-2b54bf13d8c2")
+			(uuid "efc58628-48d1-4f97-b539-2b54bf13d8c4")
 		)
 		(pin "6"
-			(uuid "236c41ed-b273-48c1-a0b7-65781032bbb9")
+			(uuid "236c41ed-b273-48c1-a0b7-65781032bbbb")
 		)
 		(pin "5"
-			(uuid "5d6a5258-6ad6-4f32-9fb9-240c8eb70ea6")
+			(uuid "5d6a5258-6ad6-4f32-9fb9-240c8eb70ea8")
 		)
 		(pin "10"
-			(uuid "5a8fd970-7626-4b3a-819c-8de80547ff2f")
+			(uuid "5a8fd970-7626-4b3a-819c-8de80547ff31")
 		)
 		(pin "1"
 			(uuid "4379223a-a78a-4cdb-bfa9-20729588fa01")
@@ -3615,28 +3615,28 @@
 			(uuid "d8e9def7-e250-4976-a610-40a893dea1c6")
 		)
 		(pin "7"
-			(uuid "6e65769f-a8a2-43af-a7a2-618420b996d0")
+			(uuid "6e65769f-a8a2-43af-a7a2-618420b996d2")
 		)
 		(pin "9"
-			(uuid "abc869bd-dd59-46b1-92ad-8fe5985e796e")
+			(uuid "abc869bd-dd59-46b1-92ad-8fe5985e7970")
 		)
 		(pin "12"
-			(uuid "230a5a4b-8005-4fff-aa32-c3f941ab2239")
+			(uuid "230a5a4b-8005-4fff-aa32-c3f941ab223b")
 		)
 		(pin "8"
-			(uuid "46b6a043-a14e-40fe-a07f-69fad102bdc1")
+			(uuid "46b6a043-a14e-40fe-a07f-69fad102bdc3")
 		)
 		(pin "13"
-			(uuid "b042d701-0178-4677-80fd-768463cebff0")
+			(uuid "b042d701-0178-4677-80fd-768463cebff2")
 		)
 		(pin "14"
-			(uuid "5e362ad0-6a08-4e51-9239-68bf1710bb35")
+			(uuid "5e362ad0-6a08-4e51-9239-68bf1710bb37")
 		)
 		(pin "2"
 			(uuid "e399c5bc-4623-46b2-9a83-d6d89a0b1aa3")
 		)
 		(pin "4"
-			(uuid "91a65798-8c96-4061-9c8c-ca5e6ac54aee")
+			(uuid "91a65798-8c96-4061-9c8c-ca5e6ac54af0")
 		)
 		(instances
 			(project "SCRController"
@@ -3673,7 +3673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
 			(at 58.42 68.58 0)
 			(effects
 				(font
@@ -3743,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 143.002 139.7 90)
 			(effects
 				(font
@@ -3811,7 +3811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -3839,16 +3839,16 @@
 			)
 		)
 		(pin "11"
-			(uuid "efc58628-48d1-4f97-b539-2b54bf13d8c2")
+			(uuid "efc58628-48d1-4f97-b539-2b54bf13d8c5")
 		)
 		(pin "6"
-			(uuid "236c41ed-b273-48c1-a0b7-65781032bbb9")
+			(uuid "236c41ed-b273-48c1-a0b7-65781032bbbc")
 		)
 		(pin "5"
-			(uuid "5d6a5258-6ad6-4f32-9fb9-240c8eb70ea6")
+			(uuid "5d6a5258-6ad6-4f32-9fb9-240c8eb70ea9")
 		)
 		(pin "10"
-			(uuid "5a8fd970-7626-4b3a-819c-8de80547ff2f")
+			(uuid "5a8fd970-7626-4b3a-819c-8de80547ff32")
 		)
 		(pin "1"
 			(uuid "29aa7c9f-aca6-48a7-9254-4c514fa67ce4")
@@ -3857,28 +3857,28 @@
 			(uuid "6a610cd0-d544-41b4-bce6-8a23b583f13e")
 		)
 		(pin "7"
-			(uuid "6e65769f-a8a2-43af-a7a2-618420b996d0")
+			(uuid "6e65769f-a8a2-43af-a7a2-618420b996d3")
 		)
 		(pin "9"
-			(uuid "abc869bd-dd59-46b1-92ad-8fe5985e796e")
+			(uuid "abc869bd-dd59-46b1-92ad-8fe5985e7971")
 		)
 		(pin "12"
-			(uuid "230a5a4b-8005-4fff-aa32-c3f941ab2239")
+			(uuid "230a5a4b-8005-4fff-aa32-c3f941ab223c")
 		)
 		(pin "8"
-			(uuid "46b6a043-a14e-40fe-a07f-69fad102bdc1")
+			(uuid "46b6a043-a14e-40fe-a07f-69fad102bdc4")
 		)
 		(pin "13"
-			(uuid "b042d701-0178-4677-80fd-768463cebff0")
+			(uuid "b042d701-0178-4677-80fd-768463cebff3")
 		)
 		(pin "14"
-			(uuid "5e362ad0-6a08-4e51-9239-68bf1710bb35")
+			(uuid "5e362ad0-6a08-4e51-9239-68bf1710bb38")
 		)
 		(pin "2"
 			(uuid "8924aeed-b1bc-442d-a39a-bde03668071f")
 		)
 		(pin "4"
-			(uuid "91a65798-8c96-4061-9c8c-ca5e6ac54aee")
+			(uuid "91a65798-8c96-4061-9c8c-ca5e6ac54af1")
 		)
 		(instances
 			(project ""
@@ -3982,7 +3982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed"
 			(at 123.19 129.54 0)
 			(effects
 				(font
@@ -4010,7 +4010,7 @@
 			)
 		)
 		(pin "11"
-			(uuid "efc58628-48d1-4f97-b539-2b54bf13d8c3")
+			(uuid "efc58628-48d1-4f97-b539-2b54bf13d8c6")
 		)
 		(pin "6"
 			(uuid "8466d148-55e1-41f8-9544-1e13d54267c9")
@@ -4019,37 +4019,37 @@
 			(uuid "71456912-3467-4881-9e82-70cb952203a2")
 		)
 		(pin "10"
-			(uuid "5a8fd970-7626-4b3a-819c-8de80547ff30")
+			(uuid "5a8fd970-7626-4b3a-819c-8de80547ff33")
 		)
 		(pin "1"
-			(uuid "4379223a-a78a-4cdb-bfa9-20729588fa01")
+			(uuid "4379223a-a78a-4cdb-bfa9-20729588fa02")
 		)
 		(pin "3"
-			(uuid "d8e9def7-e250-4976-a610-40a893dea1c6")
+			(uuid "d8e9def7-e250-4976-a610-40a893dea1c7")
 		)
 		(pin "7"
 			(uuid "b6e7c34a-afaf-4cdc-bf15-da94ec59f1cd")
 		)
 		(pin "9"
-			(uuid "abc869bd-dd59-46b1-92ad-8fe5985e796f")
+			(uuid "abc869bd-dd59-46b1-92ad-8fe5985e7972")
 		)
 		(pin "12"
-			(uuid "230a5a4b-8005-4fff-aa32-c3f941ab223a")
+			(uuid "230a5a4b-8005-4fff-aa32-c3f941ab223d")
 		)
 		(pin "8"
-			(uuid "46b6a043-a14e-40fe-a07f-69fad102bdc2")
+			(uuid "46b6a043-a14e-40fe-a07f-69fad102bdc5")
 		)
 		(pin "13"
-			(uuid "b042d701-0178-4677-80fd-768463cebff1")
+			(uuid "b042d701-0178-4677-80fd-768463cebff4")
 		)
 		(pin "14"
-			(uuid "5e362ad0-6a08-4e51-9239-68bf1710bb36")
+			(uuid "5e362ad0-6a08-4e51-9239-68bf1710bb39")
 		)
 		(pin "2"
-			(uuid "e399c5bc-4623-46b2-9a83-d6d89a0b1aa3")
+			(uuid "e399c5bc-4623-46b2-9a83-d6d89a0b1aa4")
 		)
 		(pin "4"
-			(uuid "91a65798-8c96-4061-9c8c-ca5e6ac54aef")
+			(uuid "91a65798-8c96-4061-9c8c-ca5e6ac54af2")
 		)
 		(instances
 			(project "SCRController"
@@ -4155,7 +4155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_THT_AKL:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
 			(at 89.8652 55.88 0)
 			(effects
 				(font
@@ -4225,7 +4225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 87.122 27.94 90)
 			(effects
 				(font
@@ -4295,7 +4295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 104.902 120.65 90)
 			(effects
 				(font
@@ -4365,7 +4365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 143.002 72.39 90)
 			(effects
 				(font
@@ -4434,7 +4434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 78.232 54.61 90)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-18-3_EBC"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
 			(at 87.63 105.41 0)
 			(effects
 				(font
@@ -4577,7 +4577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 88.392 99.06 90)
 			(effects
 				(font
@@ -4645,7 +4645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
 			(at 59.69 139.7 0)
 			(effects
 				(font
@@ -4715,7 +4715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-18-3_EBC"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
 			(at 86.36 34.29 0)
 			(effects
 				(font
