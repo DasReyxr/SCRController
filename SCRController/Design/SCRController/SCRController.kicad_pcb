@@ -1637,7 +1637,7 @@
 	(footprint "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 		(layer "F.Cu")
 		(uuid "25adb41b-616a-4b3f-a4a7-3292398cfb24")
-		(at 95.635 102.3)
+		(at 78 68.5)
 		(descr "terminal block MaiXu MX126-5.0-03P, 3 pins, pitch 5mm, size 15.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-03P pitch 5mm size 15.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J1"
@@ -4459,6 +4459,362 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92L_Inline.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
+		(layer "F.Cu")
+		(uuid "6c2751ed-2e26-4e3f-bd63-37463752e49e")
+		(at 82 93)
+		(descr "Potentiometer, horizontal, Long Life, Alps RK09Y11 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09y11/rk09y11.pdf")
+		(tags "Potentiometer horizontal Alps RK09Y11 Single")
+		(property "Reference" "RV1"
+			(at 0 8.5 180)
+			(layer "F.SilkS")
+			(uuid "b6f10df9-9d19-4397-a113-5ab95d45977a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_US"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(uuid "91c4ab1a-ac5c-4762-bd41-0c73f4775a2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af30322a-45d4-4faf-909e-b64608646777")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Potentiometer, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91960a31-7e10-41f8-b5a8-530ebac0bffa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Potentiometer*")
+		(path "/602c977d-10e6-415f-b39f-d4cb3040658b")
+		(sheetname "/")
+		(sheetfile "SCRController.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -15.57 5.12)
+			(end -15.57 -0.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9c6cbbda-d9a6-44f6-b3a2-711449155cc0")
+		)
+		(fp_line
+			(start -8.57 -0.12)
+			(end -15.57 -0.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50856e7e-8274-4c91-9570-074991d03a3a")
+		)
+		(fp_line
+			(start -8.57 5.12)
+			(end -15.57 5.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "adf230cf-8f1e-4dc5-84e2-5b84b4681782")
+		)
+		(fp_line
+			(start -8.57 6.12)
+			(end -8.57 -1.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "941ac0eb-536a-4c92-990b-c0a964b7ceee")
+		)
+		(fp_line
+			(start -3.57 -1.12)
+			(end -8.57 -1.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f5a80815-c18e-4a86-9fef-162405aaa13e")
+		)
+		(fp_line
+			(start -3.57 6.12)
+			(end -8.57 6.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d0c6b83d-c81e-4b1f-9937-5669d0f3edd1")
+		)
+		(fp_line
+			(start -3.57 7.37)
+			(end -3.57 -2.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "92cb4754-c341-49a0-92e9-e72bceee6bc1")
+		)
+		(fp_line
+			(start 2.071 -2.37)
+			(end -3.57 -2.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7068d2f6-1e6a-43b7-a1c9-009f9f182b9e")
+		)
+		(fp_line
+			(start 2.071 7.37)
+			(end -3.57 7.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "78cb5c85-dfe1-4cc1-bcca-7ac2afdee6a8")
+		)
+		(fp_line
+			(start 2.071 7.37)
+			(end 2.071 -2.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fbbd8d9b-bba5-436d-a3cb-d87673177457")
+		)
+		(fp_line
+			(start -15.7 -2.5)
+			(end -15.7 7.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e6cdf450-98d9-467e-a258-eb0d07ea0ba4")
+		)
+		(fp_line
+			(start -15.7 7.5)
+			(end 2.2 7.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f4aac473-df2e-4b73-91e5-e40081a4d0cc")
+		)
+		(fp_line
+			(start 2.2 -2.5)
+			(end -15.7 -2.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "66735c38-79db-4efe-9c2b-4f0197bc4b2b")
+		)
+		(fp_line
+			(start 2.2 7.5)
+			(end 2.2 -2.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6eba64fe-da9d-4fa0-9d9f-f3fc8d699fc0")
+		)
+		(fp_line
+			(start -15.45 0)
+			(end -15.45 5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f36cfe2d-435b-4012-8c6e-84af1dc3b504")
+		)
+		(fp_line
+			(start -15.45 5)
+			(end -8.45 5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "de33c5db-525e-4315-8d0b-e81edad3073a")
+		)
+		(fp_line
+			(start -8.45 -1)
+			(end -8.45 6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0daf3d9e-b0c1-40b2-b828-530499b31f68")
+		)
+		(fp_line
+			(start -8.45 0)
+			(end -15.45 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "833ad257-29fe-42a7-96da-201b44c48d35")
+		)
+		(fp_line
+			(start -8.45 6)
+			(end -3.45 6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "35bd8bc1-c2b4-4abf-948a-5e0276a793a8")
+		)
+		(fp_line
+			(start -3.45 -2.25)
+			(end -3.45 7.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "50f0937f-53c9-4892-bdd1-667bc10dcff1")
+		)
+		(fp_line
+			(start -3.45 -1)
+			(end -8.45 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca1e7eab-35b7-44f1-ac75-f2d4a85a8527")
+		)
+		(fp_line
+			(start -3.45 7.25)
+			(end 1.95 7.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9fa9cb7a-b27d-4f9d-bd53-c8c548775972")
+		)
+		(fp_line
+			(start 1.95 -2.25)
+			(end -3.45 -2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "068cc983-d57b-4db1-bcfa-74b60d277bf3")
+		)
+		(fp_line
+			(start 1.95 7.25)
+			(end 1.95 -2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fb565a11-5e75-4298-a46f-d53d1afe8f9a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.75 2.5 180)
+			(layer "F.Fab")
+			(uuid "3977ac77-c370-42cd-a79e-74899603bc50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 20 "VCC")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "182e71aa-8fcc-4098-b317-9386ce832307")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.5 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 22 "VCOMP")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "8e5edec0-e27b-40e3-8ce9-7280dbeaa8c9")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "DERCENT")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "68b3833a-149f-4827-8d9c-1182dedce660")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK09Y11_Single_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8949,7 +9305,7 @@
 	(footprint "Diode_THT:D_DO-15_P5.08mm_Vertical_AnodeUp"
 		(layer "F.Cu")
 		(uuid "ea0f2fd7-89c2-4309-838b-b074a6882e4a")
-		(at 111.735 111.75)
+		(at 108.26 127)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=5.08mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 5.08mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D5"
@@ -10369,6 +10725,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 50 63)
+		(end 150 163)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8cce0190-9651-4d57-b36a-122ba10b9efb")
 	)
 	(embedded_fonts no)
 )
