@@ -2952,7 +2952,7 @@
 		(uuid "72996564-43ea-4a2a-af49-ab0456b13c51")
 	)
 	(junction
-		(at 268.224 144.018)
+		(at 263.652 100.076)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7eb74cd7-0000-48eb-9ca3-8ba5a0f0a9fa")
@@ -3091,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.954 144.018) (xy 266.954 144.272)
+			(xy 262.382 100.076) (xy 262.382 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3321,7 +3321,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.748 144.018) (xy 268.224 144.018)
+			(xy 265.176 100.076) (xy 263.652 100.076)
 		)
 		(stroke
 			(width 0)
@@ -3331,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.002 141.732) (xy 266.954 141.732)
+			(xy 265.43 97.79) (xy 262.382 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3381,7 +3381,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.224 144.018) (xy 266.954 144.018)
+			(xy 263.652 100.076) (xy 262.382 100.076)
 		)
 		(stroke
 			(width 0)
@@ -3541,7 +3541,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.002 139.446) (xy 270.002 141.732)
+			(xy 265.43 95.504) (xy 265.43 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3561,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.954 148.59) (xy 266.954 146.812)
+			(xy 262.382 104.648) (xy 262.382 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3571,7 +3571,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 148.59) (xy 266.954 148.59)
+			(xy 265.938 104.648) (xy 262.382 104.648)
 		)
 		(stroke
 			(width 0)
@@ -4081,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.002 139.446) (xy 270.256 139.446)
+			(xy 265.43 95.504) (xy 265.684 95.504)
 		)
 		(stroke
 			(width 0)
@@ -4513,7 +4513,7 @@
 	)
 	(global_label "DERCENT"
 		(shape input)
-		(at 269.748 144.018 0)
+		(at 265.176 100.076 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4523,7 +4523,7 @@
 		)
 		(uuid "2035cf10-befd-46fa-a7a9-7a8994362dc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.1393 144.018 0)
+			(at 276.5673 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +4645,7 @@
 	)
 	(global_label "VA+"
 		(shape input)
-		(at 270.256 139.446 0)
+		(at 265.684 95.504 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4655,7 +4655,7 @@
 		)
 		(uuid "4d0e9ee5-6bf6-472a-8bf5-63cd3ead7ccb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.9908 139.446 0)
+			(at 272.4188 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4689,7 @@
 	)
 	(global_label "VA-"
 		(shape input)
-		(at 270.51 148.59 0)
+		(at 265.938 104.648 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4699,7 +4699,7 @@
 		)
 		(uuid "4ed822da-9bba-4f79-ae32-c14197b7be82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.2448 148.59 0)
+			(at 272.6728 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5432,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 268.224 144.018 0)
+		(at 263.652 100.076 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5441,7 +5441,7 @@
 		(fields_autoplaced yes)
 		(uuid "239b4c10-e53e-46b5-8937-3da79132ca93")
 		(property "Reference" "#PWR013"
-			(at 268.224 150.368 0)
+			(at 263.652 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5450,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 268.224 149.352 0)
+			(at 263.652 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 268.224 144.018 0)
+			(at 263.652 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 268.224 144.018 0)
+			(at 263.652 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 268.224 144.018 0)
+			(at 263.652 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5771,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 261.874 144.272 0)
+		(at 257.302 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5780,7 +5780,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ca3b699-3dfc-4bb7-b7c6-7d027cda0a86")
 		(property "Reference" "J1"
-			(at 262.509 137.16 0)
+			(at 257.937 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,15 +5788,15 @@
 			)
 		)
 		(property "Value" "VALT"
-			(at 262.509 139.7 0)
+			(at 257.937 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 261.874 144.272 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+			(at 257.302 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.874 144.272 0)
+			(at 257.302 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5814,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 261.874 144.272 0)
+			(at 257.302 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_GeneSiC_KBPC_W"
+		(property "Footprint" "PCM_Diode_THT_AKL:Diode_Bridge_KBP"
 			(at 233.934 125.984 0)
 			(effects
 				(font
@@ -8347,7 +8347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 255.524 83.566 0)
 			(effects
 				(font
@@ -8625,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-6_W7.62mm_LongPads"
 			(at 218.694 89.916 0)
 			(effects
 				(font
