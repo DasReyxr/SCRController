@@ -4514,6 +4514,16 @@
 	)
 	(wire
 		(pts
+			(xy 225.044 164.084) (xy 225.298 164.084)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2187750-bc6f-4d08-af06-d64ea3dcca8c")
+	)
+	(wire
+		(pts
 			(xy 144.78 132.08) (xy 144.78 135.89)
 		)
 		(stroke
@@ -6441,7 +6451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 244.094 149.0979 0)
 			(effects
 				(font
@@ -6817,7 +6827,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer_US"
+		(property "Value" "5K"
 			(at 146.05 172.7199 0)
 			(effects
 				(font
@@ -8407,7 +8417,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab23881b-67b9-45ef-a75b-4902c48d3b5a")
 		(property "Reference" "C6"
-			(at 238.506 164.8459 0)
+			(at 237.49 164.8459 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,8 +8425,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 238.506 167.3859 0)
+		(property "Value" "0.1uF"
+			(at 237.49 167.3859 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8827,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0342c8a-b3fe-4be4-b388-81d59900dafb")
 		(property "Reference" "C5"
-			(at 221.488 162.5599 0)
+			(at 219.71 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,8 +8835,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 221.488 165.0999 0)
+		(property "Value" "2200uF"
+			(at 219.71 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,7 +9329,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5409686-c502-4bf0-8f17-c37c7b808321")
 		(property "Reference" "C2"
-			(at 221.996 144.2719 0)
+			(at 220.98 144.2719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,8 +9337,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 221.996 146.8119 0)
+		(property "Value" "2200uF"
+			(at 220.98 146.8119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
